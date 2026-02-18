@@ -1,0 +1,11 @@
+#ANOVA
+from scipy.stats import f_oneway
+
+g1 = [10,12,11]
+g2 = [14,15,13]
+g3 = [18,17,19]
+
+f, p = f_oneway(g1,g2,g3)
+
+print("F-stat:", f)
+print("P-value:", p)
