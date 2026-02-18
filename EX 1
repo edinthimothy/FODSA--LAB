@@ -1,0 +1,14 @@
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+print("Array:", a)
+print("Mean:", np.mean(a))
+print("Std:", np.std(a))
+print("Sum:", np.sum(a))
+
+
+Output: 
+Array: [1 2 3 4 5]
+Mean: 3.0
+Std: 1.4142135623730951
+Sum: 15
