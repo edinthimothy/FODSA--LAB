@@ -1,0 +1,12 @@
+#Normal Curve, Correlation & Scatter Plot
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import norm
+
+x = np.random.normal(0,1,100)
+y = 2*x + np.random.normal(0,1,100)
+
+print("Correlation:", np.corrcoef(x,y)[0,1])
+
+plt.scatter(x,y)
+plt.show()
