@@ -1,0 +1,8 @@
+#Frequency Distribution, Average, Variability
+import numpy as np
+
+data = [2,4,4,4,5,5,7,9]
+
+print("Mean:", np.mean(data))
+print("Variance:", np.var(data))
+print("Std Dev:", np.std(data))
