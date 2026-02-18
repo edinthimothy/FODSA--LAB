@@ -1,4 +1,4 @@
-#Working with NumPy Arrays
+#Basic Plots using Matplotlib
 import matplotlib.pyplot as plt
 
 x = [1,2,3,4]
