@@ -1,0 +1,10 @@
+#T-Test
+from scipy.stats import ttest_ind
+
+group1 = [14,15,16,15,14]
+group2 = [10,11,12,11,10]
+
+t, p = ttest_ind(group1, group2)
+
+print("T-stat:", t)
+print("P-value:", p)
